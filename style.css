@@ -1,0 +1,139 @@
+body {    
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+} 
+
+p{
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 1em;    
+    color: rgb(173, 81, 81);
+}
+
+#description{
+    margin: 0;
+    margin-top: -1em;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: oblique;
+    font-weight: 800;
+    text-decoration: underline;
+    color: rgb(141, 76, 76);
+}
+
+#survey-form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.data{
+    background: linear-gradient(94deg, rgba(7,37,144,1) 70%, rgba(9,64,121,0.8127626050420168) 80%, rgba(11,52,60,1) 90%);
+    margin-top: 2em;
+    border-radius: 0.5rem;
+}
+
+.data-text{
+    height: 2em;
+}
+
+fieldset{  
+    margin: 0 auto;  
+    border: none;    
+}
+
+#name-label{
+    display: block;
+    text-align: center;
+}
+
+#email-label{
+    display: block;
+    text-align: center;
+}
+
+#number-label{
+    display: block;
+    text-align: center;
+}
+
+.first-chose{
+    background: linear-gradient(94deg, rgba(7,37,144,1) 60%, rgba(9,64,121,0.8127626050420168) 70%, rgba(11,52,60,1) 80%);
+    margin-top: 2em;
+    border-radius: 0.5rem;
+}
+
+.second-chose{
+    background: linear-gradient(94deg, rgba(7,37,144,1) 50%, rgba(9,64,121,0.8127626050420168) 60%, rgba(11,52,60,1) 70%);
+    margin-top: 2em;
+    border-radius: 0.5rem;
+}
+
+.radio{
+    width: 15%; 
+}
+
+label{    
+    padding: 0.5em;
+    color: rgb(243, 212, 212);
+}
+
+input{    
+    margin-top: 0.5em;
+    width:100%;
+    color: rgb(25, 26, 31);
+    background-color: rgb(197, 206, 203);
+    border-color: rgb(13, 13, 29);
+}
+
+select{
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    background-color: rgb(197, 206, 203);
+}
+
+.box{
+    width: 15%;
+}
+
+.feature{
+    margin-top: 2em;
+    background: linear-gradient(94deg, rgba(7,37,144,1) 40%, rgba(9,64,121,0.8127626050420168) 50%, rgba(11,52,60,1) 60%);
+    border-radius: 0.5em;
+}
+
+.improve{
+    margin-top: 2em;
+    background: linear-gradient(94deg, rgba(7,37,144,1) 30%, rgba(9,64,121,0.8127626050420168) 40%, rgba(11,52,60,1) 50%);
+    border-radius: 0.5em;
+}
+
+.comment{
+    margin-top: 2em;
+    background: linear-gradient(94deg, rgba(7,37,144,1) 20%, rgba(9,64,121,0.8127626050420168) 30%, rgba(11,52,60,1) 40%);
+    border-radius: 0.5em;
+}
+
+textarea{
+    border-radius: 0.5em;
+}
+
+#submit{
+    background: linear-gradient(94deg, rgba(7,37,144,1) 10%, rgba(9,64,121,0.8127626050420168) 20%, rgba(11,52,60,1) 30%);
+    margin-top: 1.5em;    
+    color: antiquewhite;
+    border-radius: 2.5em;
+    font-size: 2em;
+}
